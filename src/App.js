@@ -38,7 +38,7 @@ export default class App extends Component {
 
     return (
       <div className='App'>
-        <h1>Music Info</h1>
+        <h1>Find Artist</h1>
         <Search
           updateArtistQuery={this.updateArtistQuery}
           handleKeyPress={this.handleKeyPress}

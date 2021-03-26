@@ -1,21 +1,17 @@
 @import 'App.css';
 
-:root {
-  --rad: 0.7rem;
-  --dur: 0.3s;
-  --color-dark: #2f2f2f;
-  --color-light: #fff;
-  --color-brand: #57bd84;
-  --font-fam: 'Lato', sans-serif;
-  --height: 5rem;
-  --btn-width: 6rem;
-  --bez: cubic-bezier(0, 0, 0.43, 1.49);
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 16px;
 }
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightPink;
+  background-color: #eaa0a2;
+  color: #3a4664;
   font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,14 +20,14 @@ body {
   min-height: 100vh;
 }
 
-html {
-  box-sizing: border-box;
-  height: 100%;
-  font-size: 16px;
-}
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+h1 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.8rem;
 }

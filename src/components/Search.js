@@ -1,14 +1,17 @@
 import React from 'react'
-
+import './search.css'
 const Search = (props) => {
   return (
-    <div>
+    <div className='search'>
       <input
+        className='searchTerm'
         onChange={props.updateArtistQuery}
         onKeyPress={props.handleKeyPress}
         placeholder='Search for an Artist'
       />
-      <button onClick={props.searchArtist}>Search</button>
+      <button className='searchButton' onClick={props.searchArtist}>
+        Search
+      </button>
     </div>
   )
 }

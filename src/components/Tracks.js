@@ -28,7 +28,7 @@ export default class Tracks extends Component {
     }
   }
   render() {
-    console.log(this.state)
+    // console.log(this.state)
     return (
       <div>
         {this.props.tracks.map((track) => {
@@ -41,7 +41,7 @@ export default class Tracks extends Component {
             >
               <img
                 src={album.images[0].url}
-                alt='track-image'
+                alt='album cover'
                 className='track-image'
               />
               <p className='track-text'>{name}</p>
